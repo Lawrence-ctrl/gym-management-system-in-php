@@ -41,13 +41,13 @@
           $mail->isSMTP();                                     
           $mail->Host = "smtp.gmail.com";  
           $mail->SMTPAuth = true;                             
-          $mail->Username = 'takemehome19997@gmail.com';               
-          $mail->Password = 'loveyadude1997';               
+          $mail->Username = 'mgmg@gmail.com';               
+          $mail->Password = '*******';               
           $mail->SMTPSecure = 'ssl';                          
           $mail->Port = 465;                                   
-          $mail->setFrom('takemehome19997@gmail.com','App');
+          $mail->setFrom('mgmg@gmail.com','App');
           $mail->addAddress($email);   
-          $mail->addReplyTo('takemehome19997@gmail.com');
+          $mail->addReplyTo('mgmg@gmail.com');
           $mail->isHTML(true);
           $mail->Subject = 'GMS';
                   $mail->Body    = '<b>Dear </b><br>
