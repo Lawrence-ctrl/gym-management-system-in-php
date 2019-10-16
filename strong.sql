@@ -82,8 +82,8 @@ CREATE TABLE `booking` (
 INSERT INTO `booking` (`book_id`, `bookuser_id`, `bookuser_name`, `bookuser_email`, `bookuser_pass`, `bookuser_img`, `bookuser_phone`, `bookuser_address`, `bookuser_fb`, `bookuser_status`, `bookdate`, `enddate`, `bookduration`, `bookuserplan`, `bookage`, `bookweight`, `bookgender`, `booked`, `created_date`, `updated_date`) VALUES
 (1, 1, 'Lawrence', 'lawrence@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d4e9b12ec3a4_obivan.png', '09972089188', 'North Dagon', 'Lawrence', 1, '2019-08-01', '2020-02-01', 3, 1, 22, 135, 1, 1, '2019-08-10 17:46:44', '2019-08-10 17:46:44'),
 (10, 3, 'Tun Myint Aung', 'atun@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d68ccc2892fc_10_avatar-512.png', '09456789123', 'Mingalardon', 'Tun Myint Aung', 1, '2019-09-01', '2019-10-01', 1, 1, 22, 135, 1, 1, '2019-08-30 14:17:34', '2019-08-30 14:17:34'),
-(11, 5, 'Thuta Yar Moe', 'staystronglikeasun1997@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92263eb98_vector-avatars-avatar-icon-5.png', '09972089188', 'north dagon', 'lawrence', 1, '2019-09-02', '2020-09-02', 4, 1, 22, 135, 1, 1, '2019-09-02 10:23:42', '2019-09-02 10:23:42'),
-(12, 6, 'Law Law', 'thutayarmoe97@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92f2c8493_3_avatar-512.png', '09972089188', 'north dagon', 'lawrence', 1, '2019-09-03', '2019-12-03', 2, 3, 22, 135, 1, 1, '2019-09-02 10:30:28', '2019-09-02 10:30:28');
+(11, 5, 'Thuta Yar Moe', 'staystrong@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92263eb98_vector-avatars-avatar-icon-5.png', '09972089188', 'north dagon', 'lawrence', 1, '2019-09-02', '2020-09-02', 4, 1, 22, 135, 1, 1, '2019-09-02 10:23:42', '2019-09-02 10:23:42'),
+(12, 6, 'Law Law', 'mgmg@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92f2c8493_3_avatar-512.png', '09972089188', 'north dagon', 'lawrence', 1, '2019-09-03', '2019-12-03', 2, 3, 22, 135, 1, 1, '2019-09-02 10:30:28', '2019-09-02 10:30:28');
 
 -- --------------------------------------------------------
 
@@ -262,8 +262,8 @@ CREATE TABLE `income` (
 INSERT INTO `income` (`income_id`, `book_id`, `member_email`, `income`, `created_date`, `updated_date`) VALUES
 (1, 1, 'lawrence@gmail.com', 210000, '2019-08-10', '2019-08-10'),
 (2, 10, 'atun@gmail.com', 35000, '2019-08-30', '2019-08-30'),
-(3, 11, 'staystronglikeasun1997@gmail.com', 420000, '2019-09-02', '2019-09-02'),
-(4, 12, 'thutayarmoe97@gmail.com', 120000, '2019-09-02', '2019-09-02');
+(3, 11, 'staystrong@gmail.com', 420000, '2019-09-02', '2019-09-02'),
+(4, 12, 'mgmg@gmail.com', 120000, '2019-09-02', '2019-09-02');
 
 -- --------------------------------------------------------
 
@@ -519,8 +519,8 @@ INSERT INTO `users` (`userid`, `username`, `useremail`, `userpass`, `user_img`, 
 (1, 'Lawrence', 'lawrence@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d4e9b12ec3a4_obivan.png', '09972089188', 'North Dagon', 'Lawrence', 1, 1, '2019-08-10 16:53:14', '2019-08-10 16:53:14'),
 (3, 'Tun Myint Aung', 'atun@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d68ccc2892fc_10_avatar-512.png', '09456789123', 'Mingalardon', 'Tun Myint Aung', 1, 1, '2019-08-30 13:44:10', '2019-08-30 13:44:10'),
 (4, 'Naw Htee Moo', 'nawhtee@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c8d954ef86_61-512.png', '0992147893', 'Insein', 'Naw Htee', 2, 0, '2019-09-02 10:03:41', '2019-09-02 10:03:41'),
-(5, 'Thuta Yar Moe', 'staystronglikeasun1997@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92263eb98_vector-avatars-avatar-icon-5.png', '09972089188', 'north dagon', 'lawrence', 1, 1, '2019-09-02 10:23:10', '2019-09-02 10:23:10'),
-(6, 'Law Law', 'thutayarmoe97@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92f2c8493_3_avatar-512.png', '09972089188', 'north dagon', 'lawrence', 1, 1, '2019-09-02 10:26:34', '2019-09-02 10:26:34');
+(5, 'Thuta Yar Moe', 'staystrong@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92263eb98_vector-avatars-avatar-icon-5.png', '09972089188', 'north dagon', 'lawrence', 1, 1, '2019-09-02 10:23:10', '2019-09-02 10:23:10'),
+(6, 'Law Law', 'mgmg@gmail.com', '5d41402abc4b2a76b9719d911017c592', '5d6c92f2c8493_3_avatar-512.png', '09972089188', 'north dagon', 'lawrence', 1, 1, '2019-09-02 10:26:34', '2019-09-02 10:26:34');
 
 -- --------------------------------------------------------
 
