@@ -1,0 +1,95 @@
+
+.ma{
+    color:#111;
+}
+.fe{
+    color:pink;
+}
+@media(max-width: 576px) {
+i.fas.fa-heart.text-secondary.heart {
+    position: absolute;
+    bottom: 85%;
+    right: 15%;
+    font-size: 20px;
+  }
+}
+@media(min-width: 576px) {
+i.fas.fa-heart.text-secondary.heart {
+    position: absolute;
+    bottom: 90%;
+    right: 7%;
+    font-size: 20px;
+  }
+}
+@media(max-width: 576px) {
+i.far.fa-heart.text-secondary.heart {
+    position: absolute;
+    bottom: 85%;
+    right: 15%;
+    font-size: 20px;
+  }
+  .tt {
+    width: 30px;
+    height: 30px;
+  }
+  .tay {
+     width: 20%;
+  }
+}
+@media(min-width: 576px) {
+i.far.fa-heart.text-secondary.heart {
+    position: absolute;
+    bottom: 90%;
+    right: 7%;
+    font-size: 20px;
+  }
+  .tay {
+     width: 30%;
+  }
+  .tt {
+    width: 50px;
+    height: 50px;
+  }
+}
+ .car {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-top: 10px;
+   }
+     .card-title {
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      color: gray;
+     }
+     .he {
+      margin-bottom: 5px;
+     }
+     .ta {
+      height: 200px;
+     }
+     @media (max-width: 575.98px) {
+      .card-body{
+        display: none;
+      }
+     }
+     .scroll-to-top {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      display: none;
+      width: 2.75rem;
+      height: 2.75rem;
+      text-align: center;
+      color: #fff;
+      background: rgba(90,92,105,.5);
+      line-height: 46px;
+      }
+ .zawgyi{
+            font-family:Zawgyi-One;
+        }
+.unicode{
+            font-family:Myanmar3,Yunghkio,'Masterpiece Uni Sans';
+        }

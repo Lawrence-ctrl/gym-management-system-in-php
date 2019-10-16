@@ -1,0 +1,9 @@
+<?php
+ include_once('../admin/database/connection.php');
+ include('userconfig.php');
+ unset($_SESSION['userid']);
+ unset($_SESSION['useremail']);
+ unset($_SESSION['cart']);
+ header("location:userlogin.php");
+ exit;
+?>
